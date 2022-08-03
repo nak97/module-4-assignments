@@ -1,3 +1,60 @@
 .container {
-  display: flex;
+  display: grid;
+  border: 2px solid black;
+  grid-gap: 2vw;
 }
+
+.card-1 {
+  display: grid;
+  border: 1px solid black;
+  width: 30vw;
+  grid-template-areas:
+  "img-1 info-1"
+  "link-1 icon-1" ;
+}
+
+.c-1 {
+  height: 8vw;
+  width: 8vw;
+}
+.img-1 {
+  grid-area: img-1;
+  padding-right: 1vw;
+}
+.info-1 {
+  grid-area:info-1;
+  padding-right: 5vw;
+}
+.link-1 {
+  grid-area: link-1;
+  padding-bottom: 1vw;
+  padding-left: 1vw;
+}
+
+.icon-1 {
+  grid-area: icon-1;
+  text-align: right;
+  padding-right: 1vw;
+}
+
+.card-2 {
+  display: grid;
+  border: 1px solid black;
+}
+.card-3 {
+  display: grid;
+  border: 1px solid black;
+}
+
+
+.c-2 {
+  height: 6vw;
+  width: 6vw;
+}
+.c-3 {
+  height: 8vw;
+  width: 8vw;
+}
+
+
+
